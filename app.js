@@ -1,8 +1,8 @@
-const colorSelector = document.querySelector("#colorSelector");
-const button = document.querySelector(".button");
-const colorSelected = document.querySelector(".colorSelected");
-const colorBox = document.querySelector("#colorBox");
-const clipboardP = document.querySelector(".clipboard");
+const colorSelector = document.querySelector("#appInput");
+const button = document.querySelector(".appButton");
+const colorSelected = document.querySelector(".appColorCode");
+const colorBox = document.querySelector(".appColorBox");
+const clipboardP = document.querySelector(".appClipboard");
 
 button.addEventListener("click", () => {
   colorSelected.textContent = colorSelector.value;
